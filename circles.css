@@ -1,0 +1,65 @@
+.hover, .rotate, .translateX, .translateY, .threeD, .skew, .scale {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+     /*properties you want to transition*/
+    transition-property: color, background-color, transform;
+    /*how long you want the transition to be*/
+    transition-duration: 2s;
+    /*how long until the transtition begins*/
+    transition-delay: 2s;
+    /*not sure so look it up lol*/
+    -o-transition-timing-function: ease-out;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: teal;
+}
+
+.hover:hover {
+    color: purple;
+    background-color: turquoise;
+}
+.rotate:hover {
+    color: purple;
+    background-color: turquoise;
+    /*Whenever you rotate you measure in degrees */
+    transform: rotate(360deg);
+}
+.skew:hover {
+    color: purple;
+    background-color: turquoise;
+    /*Whenever you use Skew or transform in genral you measure in degrees*/
+    transform: skew(20deg)
+}
+.translateX:hover {
+    color: purple;
+    background-color: turquoise;
+    /*This one is measured in px*/
+    transform: translateX(30px);
+}
+.translateY:hover {
+    color: purple;
+    background-color: turquoise;
+    transform: translateY(50px)
+}
+.scale:hover {
+    color: purple;
+    background-color: turquoise;
+    /*This one is measured in percentage*/
+    transform: scale(120%)
+
+}
+.threeD:hover {
+    color: purple;
+    background-color: turquoise;
+    /*Measure for intergers x, y, and z and degrees*/
+    transform: rotate3d(1,1,1, 180deg)
+}
