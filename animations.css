@@ -1,0 +1,71 @@
+.sun {
+    border-radius: 50%;
+    line-height: 0;
+    padding: 50px 0;
+    width: 150px;
+    background-color: yellow;
+}
+
+.sky {
+    background-color: skyblue;
+    width: 100%;
+    height: 270px;
+}
+.grass {
+    height: 200px;
+    width: 100%;
+    background-color: greenyellow;
+
+}
+.road {
+    width: 100%;
+    background-color: slategray;
+    height: 260px;
+}
+.lines {
+    border: 7px dashed white;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 185%;
+    line-height: 0px;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px double skyblue
+}
+.flexone, .flextwo, .flexthree, .flexfour {
+    padding: 25px;
+    margin: 50px;
+    text-align:center;
+    height: 350px;
+    background-color: violet;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+     /*properties you want to transition*/
+    transition-property: all;
+    /*how long you want the transition to be*/
+    transition-duration: 2s;
+    /*how long until the transtition begins*/
+    transition-delay: 0.5s;
+    /*how a transition will proceed during its course*/
+    -o-transition-timing-function: ease-out;
+}
+.icky {
+    position: absolute;
+    left: 40%;
+}
+.flexone:hover {
+    color: rgb(128, 4, 139);
+    background: burlywood;
+    transform: rotate(360deg)
+}
+.flextwo:hover {
+    color: rgb(128, 4, 139);
+    background-color: burlywood;
+    transform: scale(87%);
+}
+
