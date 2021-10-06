@@ -68,4 +68,20 @@
     background-color: burlywood;
     transform: scale(87%);
 }
+.flexthree:hover {
+    color: rgb(128, 4, 139);
+    background-color: burlywood;
+    transform: skew(47deg);
+}
+.flexfour:hover {
+    color: rgb(128, 4, 139);
+    background-color: burlywood;
+}
+.racecar:hover {
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+    transform: translateX(950px);
+}
 
