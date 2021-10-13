@@ -13,7 +13,7 @@
     transition-duration: 2s;
     /*how long until the transtition begins*/
     transition-delay: 2s;
-    /*not sure so look it up lol*/
+    /*how a transition will proceed during its course*/
     -o-transition-timing-function: ease-out;
 }
 .container1 {
