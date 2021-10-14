@@ -1,0 +1,42 @@
+.section1 h1{
+color: green;
+}
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 25px;
+}
+.section2 h1 {
+color: blue;
+}
+.selecton2 + p {
+    font-size: 20px;
+}
+.section2 ul li {
+    color: pink;
+    font-size: 30px;
+    list-style-type: none;
+    transition-property: all;
+    transition-duration: 4s;
+}
+.section2 ul li:hover {
+    color: black;
+    transform: translateX(40px)
+}
+.section2 ul .spanish:hover {
+    color: blue;
+    transform: translateX(-40px)
+}
+.section3 h1 {
+    color: purple;
+}
+p::first-letter {
+    color: limegreen;
+    font-size: 50px;
+}
+p::selection {
+    color: red;
+    background-color: yellow;
+}
